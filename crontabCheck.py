@@ -43,7 +43,7 @@ def test(value, field):
     else:
         endCustom = int(value)
         if endCustom > end:
-            print('błąd')
+            print('error please put value in a proper range')
             return 0           
         print(field, value)
         return 0
