@@ -21,7 +21,7 @@ def test(value, field):
     elif field == 'months':
         end = 13
     elif field == 'daysofweek':
-        end = 6
+        end = 7
     if "/" in value:
         step = int(value.split("/")[1]) 
     elif "-" in value:
