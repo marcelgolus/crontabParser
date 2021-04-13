@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import re, sys
+import sys
 
 # cron syntax "5 5 5 5 5 /command/test"
 
